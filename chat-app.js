@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function () {
   const apiKey = 'your-unique-api-key'; // injected during script use
   const backendURL = 'https://www.websoftlogic.com/chat-api'; // PHP backend
@@ -136,9 +135,8 @@ document.addEventListener('DOMContentLoaded', function () {
         messages.innerHTML = `<div style="color:red;">Failed to load messages.</div>`;
       });
   }
-)
+
   // Poll messages every 3 seconds
   setInterval(fetchMessages, 3000);
   fetchMessages(); // initial load
-})();
-
+});
