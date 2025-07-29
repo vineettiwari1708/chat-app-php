@@ -1,7 +1,7 @@
 
 (function () {
   const apiKey = 'your-unique-api-key'; // injected during script use
-  const backendURL = 'https://yourserver.com/chat-api'; // PHP backend
+  const backendURL = 'https://www.websoftlogic.com/chat-api'; // PHP backend
 
   // Create chat UI container
   const container = document.createElement('div');
